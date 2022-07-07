@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAXMA | Программа лояльности</title>
-    <link rel="stylesheet" href="1.css">
-    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0929b3cc1a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
 </head>
-<body>
+<body>`
                                 <!-- ---mainpage---  -->
-<section class="leadsection">
+<section class="leadsection" data-section-header-color="none" id="section1">
     <div class="mainpage">
         <div class="bkgimg">
             <img src="add/cube-3.svg" alt="" class="bkg_figure">
             <img src="add/circles-1.svg" alt="" class="bkg_figure2">
             <img src="add/cube-2.svg" alt="" class="bkg_figure3">
         </div>
-        <div class="header">
+        <div class="header" id="change">
             <img class="logo" src="add/logo-white.svg" alt="maxmalogo">
             <nav>
                 <ul class="header_menu">
@@ -90,7 +91,7 @@
     </div>
 </section>
  
-<section class="feauressection">
+<section class="feauressection" data-section-header-color="ligt" id="section2">
     <div class="vozhmostnosti" id="vozhmostnosti">
     <h2>Возмостности</h2>
     <div class="features">
@@ -121,7 +122,7 @@
                     <div class="segmentaciyabazipagetext">
                         <h1>Сегментация базы</h1>
                         <div class="features_content">
-                        <ul>
+                        <ul> 
                             <li>Создание сегмента за пару кликов</li>
                             <li>Сотня критериев отбора</li>
                             <li>Сегментация на основе поведения клиента</li>
@@ -178,7 +179,7 @@
 
     </div>
 </section>
-<section class="toolssection" id="toolssection">
+<section class="toolssection" id="toolssection" data-section-header-color="dark">
      <h1>А также инструменты</h1>
     
 <div class="toolpage" data-aos="fade-up" data-aos-duration="1000">
@@ -238,29 +239,29 @@
 </div>
 </div>
 </section>
-<section class="prices" id="prices">
+<section class="prices" id="prices" data-section-header-color="light">
     <div class="pricescontent">
         <p class="pricestittle">Цены</p>
         <div class="pricesicon"> 
             <li>
-                <div class="b-prices-icon">
-                  <i class="i-mail"></i>
-                  <p class="b-prices-icon__title">Email, Push</p>
-                  <div class="b-prices-icon__oval"><p><b>0</b>&thinsp;руб.</p></div>
+                <div class="prices-icon">
+                    <i class="fa-solid fa-envelope fa-2x"></i>
+                  <p class="prices-icon__title">Email, Push</p>
+                  <div class="prices-icon__oval"><p><b>0</b>&thinsp;руб.</p></div>
                 </div>
               </li>
                   <li>
-                <div class="b-prices-icon">
-                  <i class="i-sms"></i>
-                  <p class="b-prices-icon__title">SMS</p>
-                  <div class="b-prices-icon__oval"><p>от&ensp;<b>1,50</b>&thinsp;руб.</p></div>
+                <div class="prices-icon">
+                  <i class="fa-solid fa-comment-sms fa-2x"></i>
+                  <p class="prices-icon__title">SMS</p>
+                  <div class="prices-icon__oval"><p>от&ensp;<b>1,50</b>&thinsp;руб.</p></div>
                 </div>
               </li>
                   <li>
-                <div class="b-prices-icon">
-                  <i class="i-payment"></i>
-                  <p class="b-prices-icon__title">Абонентская плата</p>
-                  <div class="b-prices-icon__oval"><p>от&ensp;<b>14&thinsp;990</b>&thinsp;руб.</p></div>
+                <div class="prices-icon">
+                    <i class="fa-solid fa-money-check fa-2x"></i>
+                  <p class="prices-icon__title">Абонентская плата</p>
+                  <div class="prices-icon__oval"><p>от&ensp;<b>14&thinsp;990</b>&thinsp;руб.</p></div>
                 </div>
               </li>
               </ul> 
@@ -271,16 +272,15 @@
                 <div class="form_content" style="display: block;">
                     <div style="display: flex;">
                     <input type="tel" name="phone">
-                    <button type="button" class="inputbtn">Посмотреть демо</button><br>
+                    <button type="button" class="inputbtn">Жду&nbsp;звонка</button><br>
                     </div>
-                    <small>Будет отправлен код по&nbsp; SMS</small>
                 </div>
             </form> 
         </div>
     </div>
 </section>
 
-<section class="integration">
+<section class="integration" data-section-header-color="dark">
     <div class="bkgimage">
 
     </div>
@@ -365,8 +365,8 @@
         </div>
         <div class="footersocial">
             <div class="social">
-                <a href="https://www.facebook.com/maxma.russia/" target="_blank"> <img src="add/facebook.png" alt="" style="width:25px;"><i class="i-facebook"></i></a>
-                <a href="https://t.me/maxma_hello" target="_blank"><img src="add/telegram.jpg" alt="" style="width: 30px; height: 50px;"><i class="i-telegram"></i></a>
+                <a href="https://www.facebook.com/maxma.russia/" target="_blank"> <i class="fa-brands fa-facebook-f" style="color:white; "></i></a>
+                <a href="https://t.me/maxma_hello" target="_blank"><i class="fa-brands fa-telegram"></i></a>
             </div>
         </div>
         <div class="footerlinks">
@@ -390,7 +390,7 @@
         }
         
     </script> -->
-    <script src="1.js"></script>
+    <script src="index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
